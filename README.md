@@ -35,7 +35,6 @@ src/
   hooks/        useLocalStorage.js    custom hook (useState + useEffect)
   pages/        SearchPage, WatchlistPage
   App.jsx       routes + watchlist state
-```
 
 ## Setup
 
@@ -44,7 +43,7 @@ src/
 
    ```bash
    npm install
-   cp .env.example .env      # then put your key in .env
+   cp .env.example .env     
    npm run dev
    ```
 
@@ -54,11 +53,10 @@ To create a production build, run `npm run build`.
 
 ## Screenshots
 
-Add 2–3 screenshots of your running app to a `screenshots/` folder and link them here:
 
 | Search | Details | Watchlist |
 | --- | --- | --- |
-| ![Search](screenshots/search.png) | ![Details](screenshots/details.png) | ![Watchlist](screenshots/watchlist.png) |
+| ![Search](screenshots/search.png) |  ![Watchlist](screenshots/watchlist.png) |
 
 ## Known limitations
 
